@@ -1,8 +1,8 @@
-# android-example
+# Android JitPack Samples
 
 [![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#jitpack/android-example)
 
-Example Android library project that works with jitpack.io.
+Example Android library projects that work with https://jitpack.io
 
 See this [Tutorial](https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0) on how to publish an Android Library with JitPack.
 
@@ -10,7 +10,7 @@ For more details check out the [documentation](https://github.com/jitpack/jitpac
 
 https://jitpack.io/#jitpack/android-example
 
-Add it to your build.gradle with:
+Add it to your ```build.gradle``` with:
 ```gradle
 allprojects {
     repositories {
@@ -35,8 +35,8 @@ https://github.com/jitpack-io/android-jitpack-library-example
 
 To enable installing into local maven repository and JitPack you need to add the [android-maven](https://github.com/dcendents/android-maven-gradle-plugin) plugin:
 
-1. Add `classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'` to root build.gradle under `buildscript { dependencies {`
-2. Add `com.github.dcendents.android-maven` to the library/build.gradle
+1. Add `classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'` to root ```build.gradle``` under `buildscript { dependencies {`
+2. Add `com.github.dcendents.android-maven` to the `library/build.gradle`
 
 After these changes you should be able to run:
 
@@ -46,7 +46,7 @@ from the root of your project. If install works and you have added a GitHub rele
 
 ## Adding a sample app 
 
-If you add a sample app to the same repo then your app needs to have a dependency on the library. To do this in your app/build.gradle add:
+If you add a sample app to the same repo then your app needs to have a dependency on the library. To do this in your `app/build.gradle` add:
 
 ```gradle
     dependencies {
